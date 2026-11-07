@@ -1,0 +1,16 @@
+{
+  "extracted_count": 1,
+  "results": [
+    {
+      "source_path": "/home/adhi/Projects/FILEX/tests/sample.png",
+      "output_path": "/home/adhi/Projects/FILEX/demo/extracted/files/filex_png_0000000000000000.png",
+      "signature_id": "PNG",
+      "start_offset": 0,
+      "end_offset_exclusive": 28,
+      "bytes_written": 28,
+      "sha256": "ede69263c4dcff6dbeaec0d225933b8ee5a409319de0d69b563fc92828df2abd",
+      "integrity_verified": true,
+      "status": "success"
+    }
+  ]
+}

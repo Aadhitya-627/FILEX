@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filex-binary-analysis"
+version = "1.0.0"
+description = "Defensive binary file identification, entropy analysis and safe carving"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0,<10.0"]
+yara = ["yara-python>=4.3"]
+
+[project.scripts]
+filex = "main:main"
+
+[tool.setuptools]
+py-modules = ["main"]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["config*", "core*", "utils*"]
+
+[tool.setuptools.package-data]
+config = ["signatures.json"]

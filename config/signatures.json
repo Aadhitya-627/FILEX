@@ -1,0 +1,39 @@
+{
+  "database_version": "1.0",
+  "description": "Common binary file format signatures",
+  "signatures": [
+    {
+      "id": "PNG",
+      "name": "PNG image",
+      "category": "image",
+      "mime_type": "image/png",
+      "extensions": [".png"],
+      "magic_hex": "89504E470D0A1A0A",
+      "offsets": [0],
+      "scan_embedded": true,
+      "description": "PNG file signature"
+    },
+    {
+      "id": "PDF",
+      "name": "PDF document",
+      "category": "document",
+      "mime_type": "application/pdf",
+      "extensions": [".pdf"],
+      "magic_hex": "25504446",
+      "offsets": [0],
+      "scan_embedded": true,
+      "description": "PDF file header"
+    },
+    {
+      "id": "ZIP",
+      "name": "ZIP archive",
+      "category": "archive",
+      "mime_type": "application/zip",
+      "extensions": [".zip"],
+      "magic_hex": "504B0304",
+      "offsets": [0],
+      "scan_embedded": true,
+      "description": "ZIP local file header"
+    }
+  ]
+}

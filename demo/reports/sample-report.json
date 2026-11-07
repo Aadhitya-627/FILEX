@@ -1,0 +1,96 @@
+{
+  "application": "FILEX",
+  "report_version": "1.0",
+  "file_path": "/home/adhi/Projects/FILEX/tests/sample.png",
+  "file_size": 28,
+  "identification": {
+    "file_path": "/home/adhi/Projects/FILEX/tests/sample.png",
+    "file_size": 28,
+    "extension": ".png",
+    "detected": true,
+    "extension_status": "match",
+    "extension_mismatch": false,
+    "primary_match": {
+      "signature_id": "PNG",
+      "name": "PNG image",
+      "category": "image",
+      "mime_type": "image/png",
+      "extensions": [
+        ".png"
+      ],
+      "offset": 0,
+      "magic_hex": "89504E470D0A1A0A",
+      "description": "PNG file signature"
+    },
+    "matches": [
+      {
+        "signature_id": "PNG",
+        "name": "PNG image",
+        "category": "image",
+        "mime_type": "image/png",
+        "extensions": [
+          ".png"
+        ],
+        "offset": 0,
+        "magic_hex": "89504E470D0A1A0A",
+        "description": "PNG file signature"
+      }
+    ]
+  },
+  "embedded_matches": [
+    {
+      "signature_id": "PNG",
+      "name": "PNG image",
+      "category": "image",
+      "mime_type": "image/png",
+      "extensions": [
+        ".png"
+      ],
+      "offset": 0,
+      "magic_hex": "89504E470D0A1A0A",
+      "description": "PNG file signature"
+    }
+  ],
+  "entropy": {
+    "file_path": "/home/adhi/Projects/FILEX/tests/sample.png",
+    "file_size": 28,
+    "window_size": 4096,
+    "threshold": 7.2,
+    "window_count": 1,
+    "high_entropy_count": 0,
+    "high_entropy_ratio": 0.0,
+    "average_window_entropy": 3.9677,
+    "maximum_entropy": 3.9677,
+    "high_entropy_windows": [],
+    "windows": [
+      {
+        "offset": 0,
+        "size": 28,
+        "entropy": 3.9677,
+        "high_entropy": false
+      }
+    ]
+  },
+  "carving_candidates": [
+    {
+      "source_path": "/home/adhi/Projects/FILEX/tests/sample.png",
+      "signature_id": "PNG",
+      "name": "PNG image",
+      "category": "image",
+      "mime_type": "image/png",
+      "extensions": [
+        ".png"
+      ],
+      "start_offset": 0,
+      "end_offset_exclusive": 28,
+      "size": 28,
+      "boundary_reason": "end_of_file"
+    }
+  ],
+  "yara": null,
+  "interpretation_notes": [
+    "High entropy is a triage indicator, not proof of malware or encryption.",
+    "Carving boundaries are heuristic and do not establish file validity.",
+    "Extracted data is untrusted and must not be executed."
+  ]
+}

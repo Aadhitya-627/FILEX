@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Untrusted extracted files and generated reports
+extracted/*
+!extracted/.gitkeep
+reports/*
+!reports/.gitkeep
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+.env
+
+# Generated extraction output
+extracted/*
+!extracted/.gitkeep
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# Build artifacts
+build/
+
+# Keep demo and distribution files tracked
