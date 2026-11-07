@@ -169,6 +169,9 @@ The suite covers signature database validation, fixed-offset identification, chu
 
 The implementation roadmap and phase completion checklist are in [`PROJECT_PLAN.md`](PROJECT_PLAN.md). Version `1.0.0` is the initial complete CLI implementation; future format-aware parsers and additional signatures should be introduced with dedicated tests.
 
-## License
+## Security Notice
 
-No license has been declared yet. Add a license file before redistributing the project under an open-source license.
+FILEX is intended for defensive file analysis and educational digital forensics. Extracted content should always be treated as untrusted data.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
