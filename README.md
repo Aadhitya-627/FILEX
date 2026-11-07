@@ -146,6 +146,24 @@ CLI (main.py)
 
 See [`docs/architecture.md`](docs/architecture.md) and [`docs/module_documentation.md`](docs/module_documentation.md) for details.
 
+## Screenshots
+
+### CLI Help
+
+![FILEX CLI Help](screenshots/CLI-help.png)
+
+### File Analysis
+
+![FILEX File Analysis](screenshots/file-analysis.png)
+
+### JSON Report
+
+![FILEX JSON Report](screenshots/json-report.png)
+
+### Safe Extraction and SHA-256
+
+![FILEX Safe Extraction](screenshots/safe-extraction.png)
+
 ## Tests
 
 Install development dependencies and run:
